@@ -2,7 +2,7 @@ from flask import Flask
 
 from config import Config
 
-from api.routes import main
+from routes import main
 
 
 def create_app():
