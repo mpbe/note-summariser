@@ -1,9 +1,8 @@
-from config import Config
+from api.config import Config
 from openai import OpenAI
 
-client = OpenAI(api_key=Config.OPENAI_API_KEY)
-
 def summarise_clinical_notes(notes):
+    client = OpenAI(api_key=Config.OPENAI_API_KEY)
 
     ai_prompt = f"""
     You are an expert in clinical medicine and UK clinical coding standards.
