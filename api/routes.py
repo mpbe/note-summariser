@@ -1,5 +1,5 @@
 from flask import render_template, Blueprint, request, redirect, url_for, flash
-from services import ai_service
+from api.services import ai_service
 
 main = Blueprint("main", __name__)
 
