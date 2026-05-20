@@ -1,4 +1,4 @@
-
+<!-- -->
 # AI Clinical Notes Summariser
 
 A Flask-based web application that demonstrates how AI can transform clinical notes into structured summaries, as well as providing proposed codes, while aligning with UK clinical coding standards.
