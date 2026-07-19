@@ -16,6 +16,12 @@ From the user input, this project produces:
 
 ---
 
+## Live Demo
+
+https://note-summariser.vercel.app/
+
+---
+
 ## Tech Stack
 
 - **Backend:** Python, Flask
